@@ -201,6 +201,7 @@ li{
 }
 .agenda-head-wrapper{
     display: flex;
+    position:relative;
 }
 #agenda-img-cantainer img{
     width: 120px;
@@ -287,8 +288,9 @@ position: relative;
     }.agenda-candidate-details p{
         text-align: center;
     }#agenda-cross-btn{
-        position: relative;
+        position: absolute;
         top: 0px;
+        right:0px;
         margin:5px 0px 10px 0px;
     }
 }
